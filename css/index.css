@@ -1,0 +1,51 @@
+.slider {
+    display: flex;
+    background-color: #f1f1f1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; 
+    gap: 10px; 
+}
+
+.slides {
+    display: flex;
+    gap: 10px; /* فاصله بین هر اسلاید */
+}
+
+.slide {
+    display: flex;
+    flex-direction: column; /* متن و تصویر زیر هم */
+    align-items: center; /* وسط‌چین کردن محتوا */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* انیمیشن نرم برای هاور */
+}
+
+.slide:hover {
+    transform: scale(1.05); /* جلوه زوم هنگام هاور */
+}
+
+.slide img {
+    width: 100px; /* عرض تصویر */
+    height: auto; /* حفظ تناسب */
+    margin-bottom: 8px; /* فاصله تصویر از متن */
+    border-radius: 5px; /* گوشه‌های گرد برای تصویر */
+}
+
+.slide p {
+    margin: 0;
+    margin-top: auto; /* انتقال متن به پایین */
+
+    font-size: 14px; /* اندازه متن */
+    font-weight: bold; /* ضخیم‌تر کردن متن */
+    font-family: "Roboto";
+
+    color: #333; 
+}
