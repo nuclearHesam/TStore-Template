@@ -59,8 +59,8 @@
 #header-menu-button-contactus p::before {
     content: "ContactUs";
 }
-#header-menu-button-products p::before {
-    content: "Products";
+#header-menu-button-categories p::before {
+    content: "Categories";
 }
 #header-menu-button-login p::before {
   content: "Login";
