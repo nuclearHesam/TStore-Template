@@ -65,3 +65,6 @@
 #header-menu-button-login p::before {
   content: "Login";
 }
+#header-menu-button-register p::before {
+  content: "Register";
+}
