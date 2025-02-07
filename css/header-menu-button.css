@@ -68,3 +68,6 @@
 #header-menu-button-register p::before {
   content: "Register";
 }
+#header-menu-button-users p::before {
+  content: "Users";
+}
